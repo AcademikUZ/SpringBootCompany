@@ -22,7 +22,7 @@ public class Company {
     @Column(nullable = false)
     private String directorName;
 
-    @ManyToOne
+    @OneToOne
     private Address address;
 
 
