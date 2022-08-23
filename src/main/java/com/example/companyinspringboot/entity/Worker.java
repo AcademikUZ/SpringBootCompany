@@ -22,10 +22,10 @@ public class Worker {
     @Column(nullable = false, unique = true)
     private String phoneNumber;
 
-    @ManyToOne
+    @OneToOne
     private Address address;
 
-    @OneToOne
+    @ManyToOne
     private Department department;
 
 
