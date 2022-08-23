@@ -25,7 +25,7 @@ public class Worker {
     @ManyToOne
     private Address address;
 
-    @ManyToOne
+    @OneToOne
     private Department department;
 
 
